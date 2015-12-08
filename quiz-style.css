@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+html, body, button, h1, h2, h3, h4, p, ol, ul, li, a{
+	padding:0;
+	border:0;
+	margin:0;
+	list-style-type: none;
+	text-decoration: none;
+	background: none;
+}
+
+h1{
+	font-family: 'Niconne', cursive;
+	font-size: 40px;
+	color: #ffad33;
+	text-shadow: 2px 2px 2px black;
+}
+h3, h4{
+	font-family: 'News Cycle', sans-serif;
+}
+body{
+	background-color: #1a1a1a;
+}
+.quiz{
+	background-color: #bfbfbf;
+	position: relative;
+	width: 400px;
+	height: 300px;
+	margin:0 auto;
+	top: 40px;
+	padding: 20px 30px 25px 30px;
+	border: 3px solid #990000;
+}
+
+.question{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	line-height: 22px;
+	font-family: 'News Cycle', sans-serif;
+}
+.answers{
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-family: 'News Cycle', sans-serif;
+}
+
+.gameover{
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
